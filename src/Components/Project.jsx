@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 function Project() {
   return (
-    <div className="relative bg-[#2E424D] font-sans min-h-screen text-gray-200">
+    <div className="relative bg-[#2E424D] font-sans min-h-screen text-gray-200 overflow-x-auto">
       <div className="absolute top-0 left-0 w-full z-50">
         <Navbar />
       </div>

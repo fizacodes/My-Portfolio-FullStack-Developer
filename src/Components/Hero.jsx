@@ -9,26 +9,27 @@ function Hero() {
 
       {/* HERO CONTENT ABSOLUTELY CENTERED */}
       <div className="absolute top-1/2 left-8 -translate-y-1/2">
-        <h1 className="text-white font-semibold font-sans text-8xl mb-4">
+        <h1 className="text-white font-semibold font-sans sm:text-8xl  text-4xl mb-4">
           Fiza Shahid
         </h1>
         <h2 className="text-2xl tracking-wider font-medium text-[#98DAD9] mb-4">
           Fullstack Developer
         </h2>
 
-        <p className="text-gray-300 text-lg w-[600px] mb-6">
+        <p className="text-gray-300 text-lg  sm:w-[600px] mb-6">
           Crafting fast, intuitive, and user-focused web experiences from idea
           to full deployment.
         </p>
 
-        <div className="flex items-center gap-6 mt-6">
+        <div className="flex sm:flex-row flex-col sm:items-center gap-6 mt-6">
           {/* Button */}
           <Link
-            to="/projects"
-            className="bg-[#5b8d98] font-medium text-white px-6 py-3 rounded-lg hover:bg-[#79a6ac] transition"
-          >
-            View My Works
-          </Link>
+  to="/projects"
+  className="bg-[#5b8d98] font-medium text-white px-6 py-3 rounded-lg text-center w-max hover:bg-[#79a6ac] transition"
+>
+  View My Works
+</Link>
+
 
           {/* Social Icons */}
           <div className="flex gap-4">
