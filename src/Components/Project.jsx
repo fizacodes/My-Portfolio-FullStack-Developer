@@ -52,7 +52,7 @@ function Project() {
             </div>
             <div className="flex justify-between ">
               <a
-                href="https://resturant-website-frontend-px4c.vercel.app/"
+                href="https://resturant-website-frontend-pearl.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#5b8d98] text-white mt-6 font-medium p-2 hover:bg-[#719ca6] rounded-lg"
