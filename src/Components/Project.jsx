@@ -7,7 +7,7 @@ function Project() {
       <div className="absolute top-0 left-0 w-full z-50">
         <Navbar />
       </div>
-      <div className="max-w-5xl mx-auto px-6 pt-32 pb-16">
+      <div className="max-w-7xl mx-auto px-4 pt-32 pb-16">
         <h1 className="text-4xl md:text-5xl font-semibold mb-4">My Works</h1>
         <p className="text-gray-400">
           Here's a selection of my projects that showcase my skills and
