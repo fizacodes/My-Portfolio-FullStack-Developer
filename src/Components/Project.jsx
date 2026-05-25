@@ -17,6 +17,57 @@ function Project() {
         <div className="flex gap-6 flex-wrap">
           {/* Project Items */}
           <div className=" flex flex-col w-96 mt-10 p-4 border border-[#2E424D] rounded-lg shadow-lg hover:shadow-xl transition mb-6">
+            <img src="agromart.png" alt="" />
+            <h1 className="mb-4 mt-4 text-2xl font-serif font-semibold">
+              Farmer Marketplace
+            </h1>
+            <p className="text-gray-300">
+              Farmer Marketplace is a full-stack web application that connects farmers directly with buyers eliminating middleman through a digital marketplace. The platform allows farmers to manage and showcase their products, while customers can browse, search, and purchase agricultural items easily. It includes features such as secure authentication, product management, real-time communication, and a responsive user interface built with modern web technologies.{" "}
+            </p>
+            <div className="flex gap-4 mt-4 w-96 flex-wrap">
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Html
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                TailwindCss
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Nextjs
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                PostgreSQL
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Prisma 
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Neon
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                JWT Authentication
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Cloudinary{" "}
+              </p>
+            </div>
+            <div className="flex justify-between ">
+              <a
+                href="https://agro-mart-web.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#5b8d98] text-white mt-6 font-medium p-2 hover:bg-[#719ca6] rounded-lg"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/fizacodes/AgroMart-web"
+                className="bg-[#5b8d98] text-white mt-6 font-medium p-2 hover:bg-[#719ca6] rounded-lg ml-4"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div className=" flex flex-col w-96 mt-10 p-4 border border-[#2E424D] rounded-lg shadow-lg hover:shadow-xl transition mb-6">
             <img src="lacuisine.png" alt="" />
             <h1 className="mb-4 mt-4 text-2xl font-serif font-semibold">
               Resturant Website
