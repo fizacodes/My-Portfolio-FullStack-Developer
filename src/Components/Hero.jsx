@@ -9,7 +9,7 @@ function Hero() {
 
       {/* HERO CONTENT ABSOLUTELY CENTERED */}
       <div className="absolute top-1/2 left-8 -translate-y-1/2">
-        <h1 className="text-white font-semibold font-sans sm:text-8xl  text-4xl mb-4">
+        <h1 className="text-white font-semibold font-serif sm:text-6xl  text-4xl mb-4">
           Fiza Shahid
         </h1>
         <h2 className="text-2xl tracking-wider font-medium text-[#98DAD9] mb-4">
