@@ -17,12 +17,80 @@ function Project() {
         <div className="flex gap-6 flex-wrap">
           {/* Project Items */}
           <div className=" flex flex-col w-96 mt-10 p-4 border border-[#2E424D] rounded-lg shadow-lg hover:shadow-xl transition mb-6">
-            <img src="agromart.png" alt="" />
+            <img src="Nexora.png" alt="" />
+            <h1 className="mb-4 mt-4 text-2xl font-serif font-semibold">
+              Nexora – Full Stack Job Marketplace
+            </h1>
+            <p className="text-gray-300">
+              Nexora – Job Marketplace is a full-stack job portal that connects
+              employers with job seekers through a modern recruitment platform.
+              Recruiters can create company profiles, post and manage jobs, and
+              review applications, while candidates can build profiles, upload
+              resumes, search for jobs, and apply seamlessly. The platform
+              features secure authentication, role-based access control,
+              applicant management, real-time messaging, notifications, and a
+              fully responsive user interface.{" "}
+            </p>
+            <div className="flex gap-4 mt-4 w-96 flex-wrap">
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                TailwindCss
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Nextjs
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                NextAuth
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Google Provider
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                PostgreSQL
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Prisma
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Neon
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                JWT Authentication
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Cloudinary{" "}
+              </p>
+            </div>
+            <div className="flex justify-between ">
+              <a
+                href="https://nexora-roan-seven.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#5b8d98] text-white mt-6 font-medium p-2 hover:bg-[#719ca6] rounded-lg"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/fizacodes/Nexora"
+                className="bg-[#5b8d98] text-white mt-6 font-medium p-2 hover:bg-[#719ca6] rounded-lg ml-4"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div className=" flex flex-col w-96 mt-10 p-4 border border-[#2E424D] rounded-lg shadow-lg hover:shadow-xl transition mb-6">
+            <img src="AgroMart.png" alt="" />
             <h1 className="mb-4 mt-4 text-2xl font-serif font-semibold">
               Farmer Marketplace
             </h1>
             <p className="text-gray-300">
-              Farmer Marketplace is a full-stack web application that connects farmers directly with buyers eliminating middleman through a digital marketplace. The platform allows farmers to manage and showcase their products, while customers can browse, search, and purchase agricultural items easily. It includes features such as secure authentication, product management, real-time communication, and a responsive user interface built with modern web technologies.{" "}
+              Farmer Marketplace is a full-stack web application that connects
+              farmers directly with buyers eliminating middleman through a
+              digital marketplace. The platform allows farmers to manage and
+              showcase their products, while customers can browse, search, and
+              purchase agricultural items easily. It includes features such as
+              secure authentication, product management, real-time
+              communication, and a responsive user interface built with modern
+              web technologies.{" "}
             </p>
             <div className="flex gap-4 mt-4 w-96 flex-wrap">
               <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
@@ -38,7 +106,7 @@ function Project() {
                 PostgreSQL
               </p>
               <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
-                Prisma 
+                Prisma
               </p>
               <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
                 Neon
