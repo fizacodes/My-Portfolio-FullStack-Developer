@@ -78,7 +78,7 @@ function Project() {
             </div>
           </div>
           <div className=" flex flex-col w-96 mt-10 p-4 border border-[#2E424D] rounded-lg shadow-lg hover:shadow-xl transition mb-6">
-            <img src="AgroMart.png" alt="" />
+            <img src="image.png" alt="" />
             <h1 className="mb-4 mt-4 text-2xl font-serif font-semibold">
               Farmer Marketplace
             </h1>
