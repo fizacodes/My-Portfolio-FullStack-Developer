@@ -14,17 +14,14 @@ import {
   SiVercel,
   SiNpm,
   SiFigma,
+  SiLangchain,
 } from "react-icons/si";
+import { ShieldCheck, Sparkles } from "lucide-react";
 
 import Navbar from "./Navbar";
 
 function About() {
   const skills = [
-    { name: "HTML", icon: <SiHtml5 className="text-orange-400" size={20} /> },
-    {
-      name: "JavaScript",
-      icon: <SiJavascript className="text-yellow-400" size={20} />,
-    },
     {
       name: "TypeScript",
       icon: <SiTypescript className="text-blue-400" size={20} />,
@@ -35,7 +32,15 @@ function About() {
       name: "Node.js",
       icon: <SiNodedotjs className="text-green-400" size={20} />,
     },
+    {
+      name: "NextAuth.js",
+      icon: <ShieldCheck size={20} />,
+    },
     { name: "Express.js", icon: <SiExpress size={20} /> },
+    {
+      name: "JavaScript",
+      icon: <SiJavascript className="text-yellow-400" size={20} />,
+    },
     {
       name: "Prisma",
       icon: <SiPrisma className="text-blue-500" size={20} />,
@@ -49,9 +54,18 @@ function About() {
       icon: <SiMongodb className="text-green-500" size={20} />,
     },
     {
+      name: "Generative AI",
+      icon: <Sparkles className="text-cyan-400" size={20} />,
+    },
+    {
+      name: "LangChain",
+      icon: <SiLangchain className="text-green-500" size={20} />,
+    },
+    {
       name: "Tailwind CSS",
       icon: <SiTailwindcss className="text-cyan-400" size={20} />,
     },
+    { name: "HTML", icon: <SiHtml5 className="text-orange-400" size={20} /> },
     { name: "Git", icon: <SiGit className="text-orange-500" size={20} /> },
     { name: "Vercel", icon: <SiVercel size={20} /> },
     { name: "NPM", icon: <SiNpm className="text-red-500" size={20} /> },
@@ -67,7 +81,9 @@ function About() {
       {/* Page Content */}
       <div className="max-w-5xl mx-auto px-6 pt-32 pb-16">
         {/* Title */}
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Passion & Progress</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          Passion & Progress
+        </h1>
 
         {/* Subtitle */}
         <p className="text-gray-300 mb-12 text-lg">
@@ -85,22 +101,31 @@ function About() {
           </h3> */}
           <p className="text-gray-300 mt-1">
             I’m a{" "}
-            <span className="font-bold">MERN Stack Full-Stack Developer</span>{" "}
-            focused on creating clean, efficient, and user-friendly web
-            applications. With strong skills in MongoDB, Express.js, React, and
-            Node.js, I transform ideas into powerful digital solutions.
+            <span className="font-bold">
+              Full-Stack Developer & GenAI Developer
+            </span>{" "}
+            focused on building clean, efficient, and user-friendly web
+            applications. I work with modern technologies including Next.js,
+            React, TypeScript, Node.js, Express.js, PostgreSQL, and Prisma to
+            turn ideas into scalable digital solutions.
           </p>
+
           <p className="text-gray-300 mt-4">
-            I’m committed to learning fast and adapting quickly, especially as I
-            explore the world of{" "}
-            <span className="font-bold">Generative AI</span> to bring smarter
-            features into modern web apps. My goal is to combine full-stack
-            engineering with AI innovation so clients get future-ready, scalable
-            products.
+            Alongside full-stack development, I build{" "}
+            <span className="font-bold">Generative AI</span> features and
+            applications, working with AI models, AI-powered chat systems, RAG,
+            embeddings, vector databases, and intelligent learning experiences.
+            I enjoy combining full-stack engineering with AI to create smarter
+            and more useful products.
           </p>
+
           <p className="text-gray-300 mt-4">
-            If you need a developer who is technical, creative, and
-            growth-driven, I’m the right fit for your next project.
+            I’m a fast learner who enjoys solving real-world problems and
+            continuously improving my skills. My goal is to build{" "}
+            <span className="font-bold">
+              scalable, intelligent, and user-focused products
+            </span>{" "}
+            that combine modern web development with the possibilities of AI.
           </p>
         </div>
 

@@ -17,6 +17,74 @@ function Project() {
         <div className="flex gap-6 flex-wrap">
           {/* Project Items */}
           <div className=" flex flex-col w-96 mt-10 p-4 border border-[#2E424D] rounded-lg shadow-lg hover:shadow-xl transition mb-6">
+            <img src="image.png" alt="" />
+            <h1 className="mb-4 mt-4 text-2xl font-serif font-semibold">
+  Mentora AI – AI Powered Learning Platform
+</h1>
+
+<p className="text-gray-300">
+  Mentora AI is a full-stack AI-powered learning platform designed to
+  provide students with a personalized learning experience. Students can
+  explore courses, enroll in learning content, interact with an AI tutor,
+  take quizzes, track their progress, and manage their profiles. The
+  platform features secure authentication, personalized AI assistance,
+  course and lesson management, quiz functionality, progress tracking,
+  conversation history, and a fully responsive user interface built for
+  modern online learning.
+</p>
+            <div className="flex gap-4 mt-4 w-96 flex-wrap">
+            
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Nextjs
+              </p>
+               <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Tailwind Css
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                NextAuth
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Google Provider
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                PostgreSQL
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Prisma
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Neon
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                JWT Authentication
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+               Gen AI
+              </p>
+              <p className="text-[#98DAD9] font-semibold rounded-md p-1 px-2 bg-[#405460]">
+                Langchain{" "}
+              </p>
+            </div>
+            <div className="flex justify-between ">
+              <a
+                href="https://mentora-ai-lms.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#5b8d98] text-white mt-6 font-medium p-2 hover:bg-[#719ca6] rounded-lg"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/fizacodes/Mentora-AI-LMS"
+                className="bg-[#5b8d98] text-white mt-6 font-medium p-2 hover:bg-[#719ca6] rounded-lg ml-4"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+
+
+          <div className=" flex flex-col w-96 mt-10 p-4 border border-[#2E424D] rounded-lg shadow-lg hover:shadow-xl transition mb-6">
             <img src="Nexora.png" alt="" />
             <h1 className="mb-4 mt-4 text-2xl font-serif font-semibold">
               Nexora – Full Stack Job Marketplace
@@ -77,8 +145,10 @@ function Project() {
               </a>
             </div>
           </div>
+
+
           <div className=" flex flex-col w-96 mt-10 p-4 border border-[#2E424D] rounded-lg shadow-lg hover:shadow-xl transition mb-6">
-            <img src="image.png" alt="" />
+            <img src="AgroMart.png" alt="" />
             <h1 className="mb-4 mt-4 text-2xl font-serif font-semibold">
               Farmer Marketplace
             </h1>
